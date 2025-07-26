@@ -1,5 +1,11 @@
+import Sidebar from "./components/Sidebar";
+
 const Layout = () => {
-  return <div className="bg-amber-200">Hello</div>;
+  return (
+    <div className="flex bg-neutral-900 text-white font-[Google Sans] font-light">
+      <Sidebar />
+    </div>
+  );
 };
 
 export default Layout;
