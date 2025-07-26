@@ -9,7 +9,7 @@ const Sidebar = () => {
 
   return ( 
     <>
-      {" "}
+      
       <div
         className={`group h-screen ${
           fixedMenu ? "w-80" : "w-20"
