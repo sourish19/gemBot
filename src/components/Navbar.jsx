@@ -3,7 +3,7 @@ import UserPng from "../assets/user.png"
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between w-full h-20 px-4 py-3">
+    <div className="flex flex-1 justify-between w-full h-20 px-4 py-3">
       <div className="h-full">
         <div className="text-[#A2A9B0] font-medium leading-[28px] text-xl">
           Gemini
@@ -15,10 +15,11 @@ const Navbar = () => {
           <img  className="w-3 h-3" src={GeminiIcon} alt="" />
           <span className="text-sm font-medium leading-5">Upgrade</span>
         </button>
-        <div className="pr-6 pb-4 flex items-center"><img className="h-9 w-9" src={UserPng} alt="" /></div>
+        <div className="pr-6 pt-1"><img className="h-9 w-9" src={UserPng} alt="" /></div>
       </div>
     </div>
   );
 };
 
 export default Navbar;
+ 
