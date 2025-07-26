@@ -7,18 +7,18 @@ const Sidebar = () => {
     setFixedMenu(!fixedMenu);
   };
 
-  return (
+  return ( 
     <>
       {" "}
       <div
         className={`group h-screen ${
-          fixedMenu ? "w-64" : "w-20"
-        } bg-neutral-800 hover:w-64 transition-all duration-300 overflow-hidden`}
+          fixedMenu ? "w-80" : "w-20"
+        } bg-[#282A2C] hover:w-80 transition-all duration-300 overflow-hidden`}
       >
         <div className="relative flex flex-col items-start px-4 py-8 h-11/12 w-full">
           <div onClick={handleFixedMenu} className="w-full h-20 ">
             <i
-              className={`bi bi-list text-xl rounded-full bg-opacity-25 hover:bg-neutral-700 cursor-pointer w-10 h-10 flex items-center justify-center`}
+              className={`bi bi-list text-xl rounded-full bg-opacity-25 cursor-pointer w-10 h-10 flex items-center justify-center`}
             />
           </div>
 
@@ -71,7 +71,7 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className="ml-3 mr-4 py-3 relative opacity-80 hover:bg-neutral-700 cursor-pointer rounded-2xl">
+        <div className="ml-3 mr-4 py-3 relative opacity-80 hover:bg-neutral-700 cursor-pointer rounded-2xl transition-transform duration-500 ">
           <div className="pl-4 bi bi-gear-wide"></div>
           <div
             className={`w-200 pl-6 absolute  ${

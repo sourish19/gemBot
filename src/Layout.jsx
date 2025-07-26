@@ -1,9 +1,11 @@
 import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 const Layout = () => {
   return (
-    <div className="flex bg-neutral-900 text-white font-[Google Sans] font-light">
+    <div className="flex bg-[#1B1C1D] text-white font-[Google Sans] font-light">
       <Sidebar />
+      <Navbar />
     </div>
   );
 };
