@@ -9,7 +9,6 @@ const Layout = () => {
       <Sidebar />
       <div className="flex flex-col w-full">
         <Navbar />
-        <ChatWindow />
         <ChatContainer />
       </div>
     </div>
